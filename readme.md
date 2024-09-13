@@ -14,11 +14,25 @@ This repository demonstrates how to send a WhatsApp message using PHP and the Ma
 - cURL extension enabled
 - Maytapi account and API credentials
 
-## Quick Start
+## Installation
+1. Clone this repository: 
+```bash
+https://github.com/maytapi-com/send-a-message-with-php-using-whatsapp-api.git
+cd project-folder
+```
+2. Configure your Maytapi credentials in config.php
+```php
+<?php
+// Maytapi API credentials
+define('PRODUCT_ID', 'your_product_id');
+define('PHONE_ID', 'your_phone_id');
+define('API_KEY', 'your_api_key');
+```
+## Usage
+To send a test message, run the send_message.php script
 
-1. Clone this repository
-2. Configure your Maytapi credentials in `config.php`
-3. Run `send_message.php` to send a test message
+> [!NOTE]
+> **To perform all these operations correctly, you need to register with maytapi.com, get the credentials, and place them in the config file.**
 
 
 ## Why Maytapi?
@@ -38,4 +52,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Support
 
-For questions about Maytapi's WhatsApp API, visit their [official documentation](https://maytapi.com/whatsapp-api-documentation) or contact their support team.
+For questions about Maytapi's WhatsApp API, visit [official documentation](https://maytapi.com/whatsapp-api-documentation) or contact support team.
